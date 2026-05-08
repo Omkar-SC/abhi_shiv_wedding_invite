@@ -23,7 +23,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-    font-family: 'EB Garamond', 'Cormorant Garamond', Georgia, serif;
+    font-family: 'Cinzel Decorative', serif;
     background-color: var(--ivory);
     color: var(--dark-text);
     overflow-x: hidden;
@@ -217,19 +217,19 @@ body::after  { bottom: 20px; right: 20px; }
 .layer-3D-near { top: 5%; right: -20px; opacity: 0.4; z-index: -5; filter: blur(3px) sepia(10%); }
 
 /* ===== GLOBAL SPACING ===== */
-section { padding: 80px 20px; }
-.section-title { margin-bottom: 50px; }
+section { padding: 40px 20px; }
+.section-title { margin-bottom: 20px; }
 #hero { padding: 60px 20px; }
 
 /* ===== SECTION TITLE ===== */
 .section-title {
-    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', serif;
     font-size: clamp(1.4rem, 4vw, 2.2rem);
-    font-weight: 500;
+    font-weight: 600;
     color: var(--maroon);
     letter-spacing: 4px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     position: relative;
     display: inline-block;
 }
@@ -242,7 +242,7 @@ section { padding: 80px 20px; }
     font-size: 1rem;
     letter-spacing: 6px;
     color: var(--gold);
-    margin-top: 10px;
+    margin-top: 5px;
     font-weight: 400;
 }
 
@@ -264,9 +264,9 @@ section { padding: 80px 20px; }
 }
 
 .main-title {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cinzel Decorative', serif;
     font-size: clamp(3.8rem, 14vw, 6.5rem);
-    font-weight: 600;
+    font-weight: 100;
     font-style: italic;
     color: var(--maroon);
     line-height: 1.05;
@@ -445,6 +445,10 @@ section { padding: 80px 20px; }
     text-align: center;
 }
 
+#couple-intro p {
+    font-family: 'EB Garamond', serif;
+}
+
 .couple-container {
     display: flex;
     justify-content: center;
@@ -498,10 +502,16 @@ section { padding: 80px 20px; }
     margin-bottom: 5px;
 }
 
+.groom-img img{
+    width: 80%;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
 .person-card h3 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2.4rem;
-    font-weight: 600;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 2rem;
+    font-weight: 200;
     font-style: italic;
     color: var(--maroon);
     margin-bottom: 10px;
@@ -514,6 +524,45 @@ section { padding: 80px 20px; }
     color: var(--muted-text);
     line-height: 1.8;
     font-style: italic;
+}
+/* STORY */
+.story-card {
+    max-width: 500px;
+    margin: 0 auto 20px;
+    padding: 45px 40px;
+    border-radius: 4px;
+    background: linear-gradient(160deg,
+        rgba(253,248,240,0.9) 0%,
+        rgba(245,219,168,0.3) 100%
+    );
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(201,145,58,0.3);
+    box-shadow:
+        0 0 0 6px rgba(201,145,58,0.05),
+        0 12px 40px rgba(92,21,32,0.08),
+        inset 0 1px 0 rgba(255,255,255,0.9);
+    text-align: center;
+    transition: all 0.45s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.story-card p{
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    color: var(--muted-text);
+    line-height: 1.8;
+    font-style: italic;
+    text-align: justify;
+}
+.story-card h5{
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    color: var(--muted-text);
+    line-height: 1.8;
+    font-style: italic;
+    text-align: left;
 }
 
 /* ===== EVENTS ===== */
@@ -533,7 +582,7 @@ section { padding: 80px 20px; }
 
 .event-card {
     max-width: 500px;
-    margin: 0 auto 50px;
+    margin: 0 auto 20px;
     padding: 45px 40px;
     border-radius: 4px;
     background: linear-gradient(160deg,
