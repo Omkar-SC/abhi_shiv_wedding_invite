@@ -217,7 +217,7 @@ body::after  { bottom: 20px; right: 20px; }
 .layer-3D-near { top: 5%; right: -20px; opacity: 0.4; z-index: -5; filter: blur(3px) sepia(10%); }
 
 /* ===== GLOBAL SPACING ===== */
-section { padding: 40px 20px; }
+section { padding: 10px 20px; }
 .section-title { margin-bottom: 20px; }
 #hero { padding: 60px 20px; }
 
