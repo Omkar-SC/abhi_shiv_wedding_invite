@@ -53,7 +53,7 @@ createConfetti();
 function startAnimations() {
     startGlobalPetals();
 
-    const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+    //const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
     tl.from(".ganpati",            { opacity: 0, y: -18, duration: 1.2 })
       .from(".main-title",         { opacity: 0, y: 45,  duration: 1.8, ease: "expo.out"  }, "-=0.5")
