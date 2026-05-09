@@ -55,11 +55,11 @@ function startAnimations() {
 
     //const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
-    tl.from(".ganpati",            { opacity: 0, y: -18, duration: 1.2 })
-      .from(".main-title",         { opacity: 0, y: 45,  duration: 1.8, ease: "expo.out"  }, "-=0.5")
-      .from(".intro-text",         { opacity: 0, y: 18,  duration: 1.3                    }, "-=0.9")
-      .from(".lottie-container",   { opacity: 0, scale: 0.88, duration: 1.3               }, "-=0.7")
-      .from(".countdown-container",{ opacity: 0, y: 22,  duration: 1.3                    }, "-=0.7");
+  //  tl.from(".ganpati",            { opacity: 0, y: -18, duration: 1.2 })
+     // .from(".main-title",         { opacity: 0, y: 45,  duration: 1.8, ease: "expo.out"  }, "-=0.5")
+    //  .from(".intro-text",         { opacity: 0, y: 18,  duration: 1.3                    }, "-=0.9")
+    //  .from(".lottie-container",   { opacity: 0, scale: 0.88, duration: 1.3               }, "-=0.7")
+   //   .from(".countdown-container",{ opacity: 0, y: 22,  duration: 1.3                    }, "-=0.7");
 }
 
 // ===== 4. SCROLL REVEALS =====
